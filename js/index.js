@@ -84,3 +84,19 @@ const text3 = document.querySelector(".top-content").children[1].children[0];
 text3.textContent = "About";
 const text4 = document.querySelector(".top-content").children[1].children[1];
 text4.textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const image2 = document.querySelector("#middle-img");
+image2.src = 'img/mid-page-accent.jpg';
+
+const text5 = document.querySelector(".bottom-content").children[0].children[0];
+text5.textContent = "Services";
+const text6 = document.querySelector(".bottom-content").children[0].children[1];
+text6.textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+const text7 = document.querySelector(".bottom-content").children[1].children[0];
+text7.textContent = "Product";
+const text8 = document.querySelector(".bottom-content").children[1].children[1];
+text8.textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+const text9 = document.querySelector(".bottom-content").children[2].children[0];
+text9.textContent = "Vision";
+const text10 = document.querySelector(".bottom-content").children[2].children[1];
+text10.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
