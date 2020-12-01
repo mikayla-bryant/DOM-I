@@ -57,3 +57,15 @@ const navigation5 = document.querySelector("nav").children[4];
 navigation5.textContent = "About";
 const navigation6 = document.querySelector("nav").children[5];
 navigation6.textContent = "Contact";
+
+
+const br1 = document.createElement('br');
+const br2 = document.createElement('br');
+const ctaText2 = document.createTextNode("Is");
+const ctaText3 = document.createTextNode("Awesome");
+const ctaText = document.querySelector(".cta-text").children[0];
+ctaText.textContent = "DOM ";
+ctaText.appendChild(br1);
+ctaText.appendChild(ctaText2);
+ctaText.appendChild(br2);
+ctaText.appendChild(ctaText3);
