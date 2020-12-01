@@ -69,3 +69,18 @@ ctaText.appendChild(br1);
 ctaText.appendChild(ctaText2);
 ctaText.appendChild(br2);
 ctaText.appendChild(ctaText3);
+
+const button = document.querySelector(".cta-text").children[1];
+button.textContent = "Get Started";
+
+const image1 = document.querySelector("#cta-img");
+image1.src = 'img/header-img.png';
+
+const text1 = document.querySelector(".top-content").children[0].children[0];
+text1.textContent = "Features";
+const text2 = document.querySelector(".top-content").children[0].children[1];
+text2.textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+const text3 = document.querySelector(".top-content").children[1].children[0];
+text3.textContent = "About";
+const text4 = document.querySelector(".top-content").children[1].children[1];
+text4.textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
