@@ -100,3 +100,22 @@ const text9 = document.querySelector(".bottom-content").children[2].children[0];
 text9.textContent = "Vision";
 const text10 = document.querySelector(".bottom-content").children[2].children[1];
 text10.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const contact = document.querySelector(".contact").children[0];
+contact.textContent = "Contact";
+
+const br3 = document.createElement('br');
+const address1 = document.createTextNode("Somewhere, USA");
+const address = document.querySelector(".contact").children[1];
+address.textContent = "123 Way 456 Street";
+address.appendChild(br3);
+address.appendChild(address1);
+
+const phoneNum = document.querySelector(".contact").children[2];
+phoneNum.textContent = "1 (888) 888-8888";
+
+const email = document.querySelector(".contact").children[3];
+email.textContent = "sales@greatidea.io";
+
+const footer = document.querySelector("footer").children[0];
+footer.textContent = "Copyright Great Idea! 2018"
